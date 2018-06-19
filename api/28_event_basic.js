@@ -1,16 +1,3 @@
-# path
-
-# Buffer
-- length
-- toString()
-- fill()
-- equals()
-- indexOf()
-
-# events
-- on() 
-- emit() 
-```js
 const EventEmitter = require('events')
 
 class CustomEvent extends EventEmitter { }
@@ -25,4 +12,3 @@ ce.on('test', () => {
 setInterval(() => {
     ce.emit('test')
 }, 500)
-```

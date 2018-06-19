@@ -1,23 +1,10 @@
-# path
-
-# Buffer
-- length
-- toString()
-- fill()
-- equals()
-- indexOf()
-
-# events
-- on() 
-- emit() 
-```js
 const EventEmitter = require('events')
 
 class CustomEvent extends EventEmitter { }
 
 const ce = new CustomEvent()
 
-ce.on('test', () => {
+ce.once('test', () => {
     console.log('this is a test!');
 
 })
@@ -25,4 +12,3 @@ ce.on('test', () => {
 setInterval(() => {
     ce.emit('test')
 }, 500)
-```
