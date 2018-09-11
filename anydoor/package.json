@@ -1,0 +1,16 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "this is a simple anydoor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "author": "chokingwin",
+  "license": "MIT",
+  "dependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
